@@ -32,6 +32,8 @@ jq '.packages[] | select(.name | contains("x509")) | {name: .name, version: .ver
 jq '.packages[] | select(.licenseConcluded | contains("MIT")) | {name: .name, version: .versionInfo, license: .licenseConcluded}' c2patool-v0.14.0-universal-apple-darwin-sbom.json
 
 # linki, materiały źródłowe
+https://www.cisa.gov/sbom
+https://lfx.linuxfoundation.org/
 
 [https://www.linkedin.com/pulse/generating-software-bill-materials-aka-sboms-scale-atlassian-seth-pbwfe](https://www.linkedin.com/pulse/generating-software-bill-materials-aka-sboms-scale-atlassian-seth-pbwfe/?trackingId=3lAf5jtPQqGLsRndfU0nMw%3D%3D)
 https://www.cisa.gov/resources-tools/groups/enduring-security-framework-esf
@@ -52,3 +54,6 @@ https://outshift.cisco.com/blog/if-your-business-asks-what-sbom-is-it-is-failing
 https://www.legitsecurity.com/blog/what-is-an-sbom-sbom-explained-in-5-minutes?utm_source=chatgpt.com
 
 https://www.ntia.gov/other-publication/2021/ntia-software-component-transparency
+https://www.practical-devsecops.com/recommended-sbom-consumption-practices/
+https://www.cisa.gov/sites/default/files/2024-08/SECURING_THE_SOFTWARE_SUPPLY_CHAIN_RECOMMENDED_PRACTICES_FOR_SOFTWARE_BILL_OF_MATERIALS_CONSUMPTION-508.pdf
+https://github.com/openvex/spec/releases
