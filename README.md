@@ -47,3 +47,8 @@ https://github.com/DependencyTrack/dependency-track/issues/1746
 https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/exporting-a-software-bill-of-materials-for-your-repository
 
 https://docs.github.com/en/code-security/getting-started/github-security-features
+https://outshift.cisco.com/blog/if-your-business-asks-what-sbom-is-it-is-failing
+
+https://www.legitsecurity.com/blog/what-is-an-sbom-sbom-explained-in-5-minutes?utm_source=chatgpt.com
+
+https://www.ntia.gov/other-publication/2021/ntia-software-component-transparency
