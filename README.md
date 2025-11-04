@@ -30,3 +30,20 @@ jq '.packages[].name' c2patool-v0.14.0-universal-apple-darwin-sbom.json
 jq '.packages[] | {name: .name, version: .versionInfo}' c2patool-v0.14.0-universal-apple-darwin-sbom.json  
 jq '.packages[] | select(.name | contains("x509")) | {name: .name, version: .versionInfo}' c2patool-v0.14.0-universal-apple-darwin-sbom.json  
 jq '.packages[] | select(.licenseConcluded | contains("MIT")) | {name: .name, version: .versionInfo, license: .licenseConcluded}' c2patool-v0.14.0-universal-apple-darwin-sbom.json
+
+# linki, materiały źródłowe
+
+[https://www.linkedin.com/pulse/generating-software-bill-materials-aka-sboms-scale-atlassian-seth-pbwfe](https://www.linkedin.com/pulse/generating-software-bill-materials-aka-sboms-scale-atlassian-seth-pbwfe/?trackingId=3lAf5jtPQqGLsRndfU0nMw%3D%3D)
+https://www.cisa.gov/resources-tools/groups/enduring-security-framework-esf
+https://github.com/oasis-tcs/csaf/tree/master
+https://www.linkedin.com/pulse/generating-software-bill-materials-aka-sboms-scale-atlassian-seth-pbwfe
+https://tools.spdx.org/app/compare/
+https://cloud.google.com/software-supply-chain-security/docs/overview
+https://cloud.google.com/assured-open-source-software/docs/overview
+https://devblogs.microsoft.com/engineering-at-microsoft/generating-software-bills-of-materials-sboms-with-spdx-at-microsoft/
+
+https://github.com/DependencyTrack/dependency-track/issues/1746
+
+https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/exporting-a-software-bill-of-materials-for-your-repository
+
+https://docs.github.com/en/code-security/getting-started/github-security-features
