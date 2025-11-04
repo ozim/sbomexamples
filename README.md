@@ -32,14 +32,21 @@ jq '.packages[] | select(.name | contains("x509")) | {name: .name, version: .ver
 jq '.packages[] | select(.licenseConcluded | contains("MIT")) | {name: .name, version: .versionInfo, license: .licenseConcluded}' c2patool-v0.14.0-universal-apple-darwin-sbom.json
 
 # linki, materiały źródłowe
-https://github.com/CycloneDX
-https://ecma-international.org/publications-and-standards/standards/ecma-424/
-https://www.iso.org/standard/65666.html
-https://www.cisa.gov/sbom
-https://lfx.linuxfoundation.org/
+
+https://spdx.dev/  
+https://cyclonedx.org/  
+https://www.ntia.gov/sites/default/files/publications/vex_one-page_summary_0.pdf  
+https://www.cisa.gov/resources-tools/resources
+https://pages.nist.gov/swid-tools/  
+https://github.com/CycloneDX  
+https://ecma-international.org/publications-and-standards/standards/ecma-424/  
+https://www.iso.org/standard/65666.html  
+https://csrc.nist.gov/projects/software-identification-swid/guidelines  
+https://www.cisa.gov/sbom  
+https://lfx.linuxfoundation.org/  
 https://owasp.org/blog/2025/02/24/advisory-on-implementation-of-software-bill-of-materials-for-vulnerability-management.html
 https://spdx.dev/use/spdx-tools/
-https://spdx.dev/
+
 
 [https://www.linkedin.com/pulse/generating-software-bill-materials-aka-sboms-scale-atlassian-seth-pbwfe](https://www.linkedin.com/pulse/generating-software-bill-materials-aka-sboms-scale-atlassian-seth-pbwfe/?trackingId=3lAf5jtPQqGLsRndfU0nMw%3D%3D)
 https://www.cisa.gov/resources-tools/groups/enduring-security-framework-esf
@@ -49,7 +56,7 @@ https://tools.spdx.org/app/compare/
 https://cloud.google.com/software-supply-chain-security/docs/overview
 https://cloud.google.com/assured-open-source-software/docs/overview
 https://devblogs.microsoft.com/engineering-at-microsoft/generating-software-bills-of-materials-sboms-with-spdx-at-microsoft/
-
+https://outshift.cisco.com/blog/top-10-supply-chain-attacks
 https://github.com/DependencyTrack/dependency-track/issues/1746
 
 https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/exporting-a-software-bill-of-materials-for-your-repository
