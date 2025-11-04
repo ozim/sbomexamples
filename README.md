@@ -32,8 +32,14 @@ jq '.packages[] | select(.name | contains("x509")) | {name: .name, version: .ver
 jq '.packages[] | select(.licenseConcluded | contains("MIT")) | {name: .name, version: .versionInfo, license: .licenseConcluded}' c2patool-v0.14.0-universal-apple-darwin-sbom.json
 
 # linki, materiały źródłowe
+https://github.com/CycloneDX
+https://ecma-international.org/publications-and-standards/standards/ecma-424/
+https://www.iso.org/standard/65666.html
 https://www.cisa.gov/sbom
 https://lfx.linuxfoundation.org/
+https://owasp.org/blog/2025/02/24/advisory-on-implementation-of-software-bill-of-materials-for-vulnerability-management.html
+https://spdx.dev/use/spdx-tools/
+https://spdx.dev/
 
 [https://www.linkedin.com/pulse/generating-software-bill-materials-aka-sboms-scale-atlassian-seth-pbwfe](https://www.linkedin.com/pulse/generating-software-bill-materials-aka-sboms-scale-atlassian-seth-pbwfe/?trackingId=3lAf5jtPQqGLsRndfU0nMw%3D%3D)
 https://www.cisa.gov/resources-tools/groups/enduring-security-framework-esf
